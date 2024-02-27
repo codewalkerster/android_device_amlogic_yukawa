@@ -15,6 +15,7 @@ DTBOIMAGE := $(PRODUCT_OUT)/$(DTBO_UNSIGNED)
 DTB_FILES := \
 	$(LOCAL_DTB)/meson-g12a-sei510.dtb \
 	$(LOCAL_DTB)/meson-sm1-sei610.dtb \
+	$(LOCAL_DTB)/meson-sm1-odroid-c4.dtb \
 	$(LOCAL_DTB)/meson-sm1-khadas-vim3l.dtb \
 	$(LOCAL_DTB)/meson-g12b-a311d-khadas-vim3.dtb
 
@@ -22,6 +23,7 @@ DTB_FILES := \
 DTBO_FILES := \
 	$(LOCAL_DTB)/meson-g12a-sei510-android.dtb \
 	$(LOCAL_DTB)/meson-sm1-sei610-android.dtb \
+	$(LOCAL_DTB)/meson-sm1-odroid-c4-android.dtb \
 	$(LOCAL_DTB)/meson-sm1-khadas-vim3l-android.dtb \
 	$(LOCAL_DTB)/meson-g12b-a311d-khadas-vim3-android.dtb \
 

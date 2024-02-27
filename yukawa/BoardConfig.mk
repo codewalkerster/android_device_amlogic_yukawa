@@ -7,7 +7,7 @@ else ifeq ($(TARGET_VIM3L), true)
 TARGET_BOOTLOADER_BOARD_NAME := vim3l
 TARGET_BOARD_INFO_FILE := device/amlogic/yukawa/vim/board-info-vim3l.txt
 else
-TARGET_BOOTLOADER_BOARD_NAME := sei610
+TARGET_BOOTLOADER_BOARD_NAME := odroid
 TARGET_BOARD_INFO_FILE := device/amlogic/yukawa/sei610/board-info.txt
 endif
 
