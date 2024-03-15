@@ -32,3 +32,8 @@ PRODUCT_COPY_FILES += \
 # Speaker EQ
 PRODUCT_COPY_FILES += \
     device/amlogic/yukawa/hal/audio/speaker_eq_sei610.fir:$(TARGET_COPY_OUT_VENDOR)/etc/speaker_eq_sei610.fir
+
+ifneq ("$(wildcard vendor/opengapps/build/opengapps-packages.mk)","")
+    GAPPS_VARIANT := nano
+    $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+endif
